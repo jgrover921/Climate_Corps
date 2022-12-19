@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="./css/style.css"" rel=" stylesheet">
+  <title>ClimateCorps | Home</title>
+</head>
+
+<!-- fixed header starts here, all CC pages must begin with the following code. DO NOT CHANGE -->
+
+<body id="bodydiv">
+
+  <!-- FIXED APPLICATION NOTIFICATION -->
+  <a href="./application/index.html">
+    <div id="tiptop">
+      <em>!!! ClimateCorps is now accepting applications for '22/'23. Click to apply</em>
+    </div>
+  </a>
+
+  <!-- NAV BAR -->
+
+
+  <!-- LOGIN LINKS IN UPPER RIGHT CORNER -->
+
+  <div id="nav-bar">
+    <!-- <div class="align-right">
+      <a href="#" id="linkage">Log In</a>&nbsp;&nbsp;|&nbsp;
+      <a href="#" id="linkage">Sign Up</a>
+    </div> -->
+    <br>
+
+    <div id="navlinks" class="navrow">
+      <a href="./index.html"><img src="./ccbrownlogo2SMALL.png" class="logoimg" id="navlogo"></a>
+      <a href="./index.html" class="navmain">Home</a>
+      <a href="#sectionfour" class="navmain">About</a>
+      <a href="#sectionfive" class="navmain">Programs</a>
+      <a href="#" class="navmain donate" id="myBtn">Donate</a>
+
+    </div>
+  </div>
+
+
+
+  <!-- END NAV BAR -->
+<!-- 
+  DONATE MODAL -->
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>ClimateCorps - Get Involved</h2>
+      </div>
+  <!-- <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div> -->
+  
+<form action="/action_page.php">
+  <div class="container2">
+    <h2 class="title-blue" id="modalsubtext">DONATE.</h2>
+    <p>Thanks for your interest in ClimateCorps! Please fill out this form to create an account.</p>
+    <hr>
+
+    <label class="labelform" for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label class="labelform" for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label class="labelform" for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+
+    <button type="submit" class="btn">Register</button>
+
+  </div>
+<br>  
+</form>
+
+  <div class="modal-footer">
+    &copy; 2021 ClimateCorps. All rights reserved.<br>
+    <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a>
+  </div>
+</div>
+    </div>
+  
+
+
+  <!-- FOR OTHER PAGES START CODING HERE! -->
+  <section id="welcome-section">
+    
+    <!-- <br><br><br><br> -->
+    <video id="myvideo" autoplay muted>
+        <!-- <video width="100%" height="100%" autoplay muted> -->
+      <source src="./bigvid.mp4" type="video/mp4" id="myvideo">
+    </video>
+    <div id="overlay">
+    <img src="./ccbrownlogo2.png" id="biglogo"><br><br>
+    <br><br><a href="./application/index.html">
+    <button id="mybtn" class="btn" onclick=myFunc2()>Apply Now</button></a></div>
+    <br><br><br>
+
+  </section>
+<br><br><br>
+
+
+  <!-- 3 COLUMN TAGLINE GRID LAYOUT-->
+<div id="eppdiv">
+  <br><hr class="myhr">
+  <br>
+  
+  <div id="tagline" class="container">
+
+    <div id="empowercol" class="item1">
+      <p class="title eptitle" id="etitle">Empower&nbsp;<button id="empowerbtn" class="epp-btn">&#9538;</button></p>
+
+      <div id="empowertxt"><p class="epptxt">
+          ClimateCorps believes that sustainable workforce perpetuates a sustainable planet. Climate conservation is a complex issue, and mitigating this crisis demands all-hands on deck. <br><br>We empower current and future generations of humanity to make an impact and create a more sustainable world.<br><br>
+          <b>We believe in the power of human resources</b>.<br></p>
+        </div>
+
+    </div>
+    <div id="preservecol" class="item2">
+      <p class="title eptitle">Preserve&nbsp;<button id="preservebtn" class="epp-btn">&#9538;</button></p>
+
+      <div id="preservetxt"><p class="epptxt">
+     The industrial revolution and increasing globalization have had dire ramifications for our shared planet.<br><br>Many of today's companies are working alongside engineers, scientists, and researchers  <b>to combat climate change and reverse this crisis</b>.
+     <br><br>ClimateCorps alumni go on to serve some of the largest and most sustainable organizations in the world.</p>
+        </div>
+
+
+    </div>
+    <div id="protectcol" class="item3">
+      <p class="title eptitle">Protect&nbsp;<button id="protectbtn" class="epp-btn">&#9538;</button></p>
+
+      <div id="protecttxt"><p class="epptxt2">
+          Protecting our planet <b>for future generations and their posterity</b> is everyone's responsiblity.<br><br>So much damage has already been done, but ClimateCorps believes that the same industrial and technological advances that got us into this mess can help us transcend this crisis. <br><br>It's time to roll up our sleeves, grab a shovel or a test tube, and get to work!
+          </p>
+        </div>
+    
+    </div>
+
+    
+
+
+
+
+  </div>
+
+  <br><hr class="myhr">
+  <br>
+</div>
+
+
+
+  <section id="sectiontwo">
+    <center>
+      <div id="calloutquote1" class="mycallouts">
+        <p class="callout-text" id="cot1a">Clean energy sector projecting</p>
+        <p class="callout" id="co1">
+          50%<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          job growth</p>
+        <p class="callout-text" id="cot1b">over 5 years.</p>
+      </div><br>
+
+      <div id="calloutquote2" class="mycallouts">
+        <p class="callout-text" id="cot2a">Starting salaries</p>
+        <p class="callout" id="co2">
+          $75,000-<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          $120,000</p>
+        <p class="callout-text" id="cot2b">annually for entry level.</p>
+      </div><br>
+
+      <div id="calloutquote3" class="mycallouts">
+        <p class="callout-text" id="cot3a">Ready for your next chapter?</p>
+        <p class="callout" id="co3">
+          Apply<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Today</p>
+        <p class="callout-text" id="cot3b">to start making a difference.</p>
+
+      </div>
+
+      <br><br>
+
+    </center>
+
+  </section>
+
+  <!-- <div id="triangle1" class="triangle">
+
+</div> -->
+  <div id="triangle1" class="triangle-right">
+  </div>
+
+
+  <div id="mission">
+    <img src="./heartplant.jpg" id="missionimg"></div>
+  <p id="missiontitle">OUR MISSION.</p>
+  <p id="missiontxt" class="txt-primary-white"><em>&nbsp;&nbsp;Preserving the planet is everyone's responsibility. Our
+      mission is to bring exceptional people together from all walks of life to ensure a more sustainable future for
+      subsequent generations.</em></p>
+  </div>
+
+
+  <br><br><br>
+  <section id="sectionthree">
+
+
+    <div id="triangle2" class="triangle-left">
+    </div>
+
+
+<!-- section three -->
+  </section>
+
+
+  <!-- LOPEZ SECTION START  -->
+
+      <div id="triangle3" class="triangle-right">
+        </div>
+        <div id="howto">
+          <!-- <img src="./gogreen.jpg" alt= "anna" id="howtoimgthr"> -->
+          <video src="./windturbine.mp4" alt= "anna" id="howtoimgthr" autoplay muted loop></video>
+        
+        <div>
+          <p id="howtotitle" class="title-white">OUR STRATEGY.</p>
+        </div>
+        <div>
+           <p id="howtotxt" class="txt-primary-white"><em>We empower current and future generations of humanity by
+              providing career placement and training opportunities focusing on creating a more sustainable future for ourselves and our posterity.
+              <br><br><br>
+              <!-- <a href="./application/index.html"></a> -->
+
+              <button class="btn stratbtn" id="myDonateBtn">GET INVOLVED</button>
+            </em>
+              </p>
+              
+              <!--this was at beginningof paragraph <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em> -->
+        </div>
+      </div>
+      
+
+  <!-- LOPEZ SECTION END -->
+
+  <br><br><br>
+
+
+  <br><hr class="myhr">
+  <br>
+  <section id="sectionfour">
+
+    <p class="title-green">OUR FOCUS.</p>
+    <p class="txt-primary-blue">Climate conservation is a complex issue. At ClimateCorps,
+      we aim for the highest point <br> of contribution by focusing efforts on five key areas:</p><br><br>
+    <center>
+      <div class="focus-grid-container">
+
+        <div class="grid-item foca-top"></div>
+        <div class="grid-item foca-top">The Problem</div>
+        <div class="grid-item foca-top">The Solution</div>
+        <div class="grid-item foca"><img src="panels_wind.jpg" style="width: 70px" class="focuspics"><br>Critical Education</div>
+        <div class="grid-item probs under">Our climate is affected by the products we use everyday. A major player of climate change is our use of fossil fuels causing an increased concentration of greenhouse gases in our atmosphere. This is devastating for our planet.</div>
+        <div class="grid-item sol under">ClimateCorps offers an array of courses and subsequent job placement opportunities surrounding all of our focus areas in greater detail.<br><a href="#sectionfive">Learn more about the ClimateCorps Educational Curriculum.</a></div>
+        <div class="grid-item foca"><img src="farmersmarket.jpg" style="width: 70px" class="focuspics"><br>Zero Waste
+        </div>
+        <div class="grid-item probs under">About 69% of all the plastics we use are not 
+          recyclable. Many think that recycling or using incinerators to get rid of waste is better than dumping 
+          in landfills, but in many cases it does more harm than good.
+        </div>
+        <div class="grid-item sol under">ClimateCorps is partnered with NetZero, a zero waste coalition, focused on helping
+          communities achive net zero waste efficency. We also partner with the Global Gleaning Coalition. </div>
+        <div class="grid-item foca">
+          <img src="water.jpg" style="width: 70px" class="focuspics"><br>Clean Water</div>
+        <div class="grid-item probs under">Much of our water on this planet is being polluted daily by acids, oils, and carcinogens; deadly to wildlife and our ecosystem, while lessening our access to clean drinking water.</div>
+        <div class="grid-item sol under">We are a part of the Clean Water State Revolving Fund (CWSRF), which provides education and implementation of converting hazardous waste streams into clean water.</div>
+
+        <div class="grid-item foca"><img src="solar_installation.jpg" style="width: 70px" class="focuspics"><br>Renewable Energy</div>
+        <div class="grid-item probs under">Along with being harmful to our atmosphere upon burning these fuels, mining these sources is harmful to our ecosystem. Fossil fuels are also limited in availability and will not be able to be accessed forever. </div>
+        <div class="grid-item sol under">Here at ClimateCorps, we are finding safer, more viable ways to generate energy such as Solar, and we provide classes and certification in this growing field.</div>
+        <div class="grid-item foca"><img src="recycle.jpg" style="width: 70px" class="focuspics"><br>Community Organizing</div>
+        <div class="grid-item probs">In 2019, the U.S. Department of Agriculture (USDA, 2019) reported that over 35 million people were
+          food
+          insecure. The Centers for Disease Control reports that only 1 in 10 Americans eat
+          enough
+          fruits and vegetables.</div>
+        <div class="grid-item sol">The best way to generate lasting change is with community organizing and activism. ClimateCorps have been involved in several community and sustainable farming initiatives and organizations. </div>
+      </div>
+    </center>
+    <!-- <br><br><a href="#tiptop" class="backtotop"><span style="color: red">&#8598;</span> back to top</a><br><br> -->
+<br><br><br><br><br>
+    <a href="#tiptop" class="backtotop"><img src="cclogoleaflil.png" width="20px" id="iconlogo"> back to top</a>
+
+
+
+
+    <!-- SECTION FIVE -->
+
+    <br><br><br>
+  </section>
+
+  
+    <!-- open section -->
+
+  <div id="opensection">
+
+      <div id="triangle4" class="triangle-right">
+        </div>
+
+      </div>
+
+
+  <br><br>
+
+
+  <div id="joinsection">
+
+    <!-- join section  -->
+
+    <div id="testy">
+      <div id="testquote"><em><p class="txt-primary-white">"ClimateCorps changed everything. I went from being a single parent working a dead-end job to having a fulfilling, meaningful career that makes the world a better place, makes me a better person, and - most importantly - makes me the type of role model my daughter can be proud of."</em></div>
+<div class="txt-primary-blue">Stephanie A. Halverson, San Jose, CA</p></div>
+<img src="./momreading.jpg" id="testpic">
+
+    </div>
+
+
+
+
+    </div>
+
+    <div id="triangle5" class="triangle-left">
+      </div>
+
+   <section id="sectionfive">
+  
+      <img src="officepeople.jpg" id="sectionfiveimg">
+    <p class="title-green">OUR PROGRAMS.</p>
+<br><br>
+        <!-- <p class="txt-primary-blue">Sustainable companies are facing a labor shortage that is threatening
+            to hinder growth, a trend observed even before the pandemic rocked the conservation community.</p> -->
+            <p class="txt-primary-blue">The ClimateCorps Critical Education curriculum is fully aligned with our five key focus areas: </p>
+
+        <br><br><br><br>
+
+        <div class="tab">
+            <button class="tablinks" onmouseover="openCurriculum(event, 'Solar')" style="display:block;">Critical Education</button>
+            <button class="tablinks" onmouseover="openCurriculum(event, 'Zero Waste')">Zero Waste</button>
+            <button class="tablinks" onmouseover="openCurriculum(event, 'Renewable Energy')">Renewable Energy</button>
+            <button class="tablinks" onmouseover="openCurriculum(event, 'Community Sustainability')">Community
+                Organizing</button>
+            <button class="tablinks" onmouseover="openCurriculum(event, 'Water Initiatives')">Clean Water</button>
+<br><br><br><br>
+            <a href="#tiptop" class="backtotop"><img src="cclogoleaflil.png" width="20px" id="iconlogo"> back to top</a>
+            <br>
+        </div>
+
+
+        <div id="Solar" class="tabcontent">
+            <p class="title-blue tab-title" id="showcetitle">Critical Education</p><img src="solar_installation.jpg" style="width: 150px;"
+                id="tabimg">
+            <p id ="showcetext">
+                President Biden has pledged to make the United States a leader in clean energy and speed up
+                renewables’ adoption, setting a target of reducing the U.S.’s carbon footprint in half by 2035. 
+                <br><br>
+                In order to meet Biden’s clean energy target, the solar workforce must exceed 900,000 by
+                2035,
+                more than quadruple the current number. <b>At the current rate, the industry is on track to employ more than
+                9,000,000 workers by 2030.</b>
+            </p>
+        </div>
+
+        <div id="Zero Waste" class="tabcontent">
+            <p class="title-blue tab-title">Zero Waste</p><img src="recycle.jpg" style="width: 150px" id="tabimg"><p>
+                A Zero Waste Community can be achieved through action plans and measures that significantly reduce
+                waste
+                and pollution.<br><br>
+                The zero waste approach seeks to maximize recycling, minimize waste, reduce consumption and ensures
+                that
+                products are made to be reused, repaired or recycled back into nature or the marketplace.</p>
+        </div>
+
+        <div id="Renewable Energy" class="tabcontent">
+            <p class="title-blue tab-title">Renewable Energy</p><img src="panels_wind.jpg" style="width: 150px;" id="tabimg">
+            <p>Renewable clean energy is probably the most obvious example of sustainability. <br><br>
+                Energy industry businesses will create economic impacts in areas including manufacturing, project
+                development, construction, and turbine installation, operations and maintenance, transportation and
+                logistics, and financial, legal, and consulting services. <br><br><br>
+            </p>
+        </div>
+
+        <div id="Community Sustainability" class="tabcontent">
+            <p class="title-blue tab-title">Community Organizing</p><img src="./farmersmarket.jpg" style="width:150px;"
+                id="tabimg">
+            <p>In 2019, the U.S. Department of Agriculture (USDA, 2019) reported that over 35 million people were
+                food
+                insecure. The Centers for Disease Control reports that only 1 in 10 Americans eat
+                enough
+                fruits and vegetables.<br><br>
+
+
+                <b>Solutions — Gleaning, Harvest Support, and Revenue.</b>
+             These projects work to the health, environmental, and financial benefit of
+                everyone
+                involved.
+            </p>
+        </div>
+
+        <div id="Water Initiatives" class="tabcontent">
+            <p class="title-blue tab-title">Clean Water</p><img src="./water.jpg" style="width:150px;" id="tabimg">
+            <p>
+                Since the beginning of the Industrial Revolution, the acidity of surface ocean waters has increased
+                by about 30%. <br><br>
+
+                Proper landscaping reduces nitrate leaching from the soil into the water supply and
+                reduces surface water runoff, keeping phosphorus and other pollutants out of our waterways
+            </p>
+        </div>
+
+</section>
+
+</div>
+
+</div>
+
+  <!-- <section id="sectionfive">
+  
+      <img src="officepeople.jpg" id="sectionfiveimg">
+    <p class="title-green">OUR PROGRAMS.</p>
+    <p class="txt-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Voluptates provident ut temporibus officia similique nostrum reiciendis ex explicabo corrupti?</p>
+    <br> 
+    
+    <div id="mybuttons">
+    <a href="./application/index.html"><button id="mybtn2" class="btn">Apply Now</button></a> <button id="myDonateBtn" class="btn">Donate</button></div>
+      <br><br>
+    <a href="#tiptop" class="backtotop"><img src="leaficon2.png" width="20px" id="iconlogo"> back to top</a>
+    <br>
+  </section> -->
+  <br><br>
+
+
+  <!-- <div id ="playwithjq">
+<div id="playarea1" class="playareas">
+<h1 id ="header1" class="playheader">header 1</h1>
+<p id="text1" class="playtext"><span style="color: red" class="playspan">+</span>text 1</p>
+</div>
+
+<div id="playarea2" class="playareas">
+    <h1 id ="header2" class="playheader">header 2</h1>
+<p id="text2" class="playtext"><span style="color: red" class="playspan">+</span>text 2</p>
+</div>
+
+<div id="playarea2" class="playareas">
+<h1 id ="header3" class="playheader">header 3</h1>
+<p id="text3" class="playtext"><span id="redtext">+</span><br>text 3</p>
+</div>
+  </div> -->
+
+  <div id="triangle7" class="triangle-left">
+  </div>
+
+  <br><br>
+
+
+
+  <!-- FOOTER. DO NOT CHANGE -->
+  <footer><center>
+    &copy; 2021 ClimateCorps. All rights reserved.<br>
+    <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a></center></footer>
+  
+  <!-- end here  -->
+
+
+
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="./js/jquery.js"></script>
+
+  <!-- import D3.js -->
+  <script type="text/javascript" src="./js/d3.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+
+</body>
+
+</html>

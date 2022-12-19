@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <!-- <link href="../css/reset.css" rel=" stylesheet"> -->
+  <link href="../css/style.css" rel=" stylesheet">
+  <title>ClimateCorps | Apply</title>
+</head>
+
+<!-- fixed header starts here, all CC pages must begin with the following code. DO NOT CHANGE -->
+
+<body id="bodydiv">
+
+  <!-- FIXED APPLICATION NOTIFICATION -->
+  <a href="../application/index.html">
+    <div id="tiptop">
+      <em>!!! ClimateCorps is now accepting applications for '22/'23. Click to apply</em>
+    </div>
+  </a>
+
+  <!-- NAV BAR -->
+
+
+  <!-- LOGIN LINKS IN UPPER RIGHT CORNER -->
+
+  <div id="nav-bar">
+    <div class="align-right">
+      <a href="#" id="linkage">Log In</a>&nbsp;&nbsp;|&nbsp;
+      <a href="#" id="linkage">Sign Up</a>
+    </div>
+    <br>
+
+    <div id="navlinks" class="navrow">
+      <a href="./index.html"><img src="../ccbrownlogo2SMALL.png" class="logoimg" id="navlogo"></a>
+      <a href="../index.html" class="navmain">Home</a>
+      <a href="../index.html#sectionfour" class="navmain">About</a>
+      <a href="../index.html#sectionfive" class="navmain">Programs</a>
+      <a id="myBtn" href="#" class="navmain donate">Donate</a>
+
+    </div>
+  </div>
+
+
+
+  <!-- END NAV BAR -->
+  <!-- 
+  DONATE MODAL -->
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>ClimateCorps - Get Involved</h2>
+      </div>
+
+
+      <form action="/action_page.php">
+        <div class="container2">
+          <h2 class="title-blue" id="modalsubtext">DONATE.</h2>
+          <p>Thanks for your interest in ClimateCorps! Please fill out this form to create an account.</p>
+          <hr>
+
+          <label class="labelform" for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+          <label class="labelform" for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+          <label class="labelform" for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+
+          <button type="submit" class="btn">Register</button>
+
+        </div>
+        <br>
+      </form>
+
+      <div class="modal-footer">
+        &copy; 2021 ClimateCorps. All rights reserved.<br>
+        <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOR OTHER PAGES START CODING HERE! For page headers, only change out the text below. -->
+
+
+  <div id="welcome-application">
+    <h1 class="title-white" id="applytitle">APPLY.</h1>
+    <h2 class="title-black" id="applysubtext">Let's create your success story</h2>
+  </div>
+
+  <!-- FOR OTHER PAGES START CODING HERE! -->
+
+
+
+  <hr class="myhr">
+  <section id="sectionfour-pg">
+    <div id="black"></div>
+
+    <center>
+      <img src="../classroomwide.jpg" id="apppic">
+    </center>
+
+    <div id="triangle8" class="triangle-right">
+    </div>
+
+    <p class="title-green">GET STARTED.</p>
+    <br><br>
+    <p class="title-blue app-title">
+      Do you have what it takes to join our ranks?<br>
+      Please fill out the application below. <br>Thank you for your interest and best of luck!</p><br><br>
+
+
+
+
+
+    <!-- APPLICATION GOES HERE -->
+    <form id="application">
+      <!-- user information # information -->
+      <div class="column">
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Personal Information</h3>
+        </legend>
+        <div id="personal">
+          <!-- first-name #first-name-->
+          <label for="first-name" class="text">First Name</label>
+          <input type="name" class="box" placeholder="first name" required>
+
+          <!-- last name -->
+          <label for="last-name" class="text">Last Name</label>
+          <input type="first-name" class="box" placeholder="last name" required>
+
+          <!-- birthdate -->
+          <label for="birthdate" class="text">Date Of Birth</label>
+          <input type="date" class="box" name="birthdate" />
+
+          <!-- email #email-label-->
+
+          <label for="email" class="text">Email</label>
+          <input type="email" class="box" placeholder="email" required>
+        </div>
+        <!-- address #address-label-->
+        <div id="personal2">
+          <label for="address" class="text">Street Address</label>
+          <input type="address" class="box" placeholder="address" required>
+
+          <!-- city #city-label-->
+
+          <label for="city" class="text">City</label>
+          <input for="city" class="box" placeholder="city" required>
+
+          <!--state #state-label-->
+
+          <label for="state" class="text">State</label>
+          <input for="state" class="box" placeholder="state" required>
+
+          <!-- zipcode #zip-code-->
+
+          <label for="zip-code" class="text">Zip Code</label>
+          <input for="zip-code" class="box" placeholder="zip-code" required><br>
+        </div>
+      </fieldset>
+      <!-- Education -->
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Education History</h3>
+        </legend>
+
+        <!-- educatation -->
+        <div id="education-info">
+          <h2 class="headtext">High School Diploma Or G.E.D.?</h2><br>
+          <label>
+            <div class="flexy">
+              <input type="radio" class="checks" name="education" value="one"><span id="radiobut">Yes</span>
+              <input type="radio" class="checks" name="education" value="two"><span id="radiobut">No</span></div>
+<br><br>
+            <label>
+              <h2 class="headtext">City, State, and Year Obtained</h2>
+            </label>
+            <label for="city" class="text"><b>City</b></label>
+            <input for="city" class="box" placeholder="city"><br>
+            <label for="state" class="text"><b>State</b></label>
+            <input for="state" class="box" placeholder="state"><br>
+            <label for="year" class="text"><b>Year</b></label>
+            <input for="year" class="box" placeholder="year"><br><br>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Check One or More</h3>
+        </legend>
+
+        <h2 class="headtext">If you are chosen, would you need financial assistance to <br>complete program?
+        </h2>
+        <label>
+          <div class="flexy">
+            <input type="radio" name="grant" class="checks" value="yes"><span id="radiobut">Yes</span>
+            <input type="radio" name="grant" class="checks" value="no"><span id="radiobut">No</span>
+          </div>
+        </label><br><br><br><br><br><br>
+
+        <!-- dropdown #dropdown-->
+
+        <h2 class="headtext">Are you currently participating in any sustainable practices?</h2><br>
+        <select id="dropdown" class="box"><span id="options">
+            <option>gardening</option>
+            <option>recycling</option>
+            <option>carbon footprint reduction</option>
+            <option>zero waste</option>
+            <option>sutainable farming</option>
+            <option>not currently involved</option>
+          </span>
+        </select><br><br><br><br>
+      </fieldset>
+
+
+    </div>
+<div class="column">
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Work History</h3>
+        </legend>
+
+        <!-- employment history -->
+        <div id="employment">
+          <label for="employer" id="employer">
+
+          </label>
+
+          <label for="length-of-employment" class="text">Current Or Previous Employer</label>
+          <input type="length" class="box" placeolder="length of employment" placeholder="name of employer"><br>
+
+          <!-- employer address #address2 -->
+          <label for="address" class="text">Street Address</label>
+          <input type="address" class="box" placeholder="address"><br>
+
+          <!-- city #city-label2-->
+
+          <label for="city" class="text">City</label>
+          <input for="city" class="box" placeholder="city"><br>
+
+          <!--state #state-label2-->
+
+          <label for="state" class="text">State</label>
+          <input for="state" class="box" placeholder="state"><br>
+
+          <!-- zipcode #zip-code2-->
+
+          <label for="zip-code" class="text">Zip Code</label>
+          <input for="zip-code" class="box" placeholder="zip-code"><br>
+
+          <!-- contact employer #contact -->
+        </div>
+        <label for="contact" id="contact">
+          <h2 class="headtext">May We Contact?</h2>
+        </label>
+        <div class="flexy">
+          <input type="radio" class="checks" name="grant" value="yes"><span id="radiobut">Yes</span>
+          <input type="radio" class="checks" name="grant" value="no"><span id="radiobut">No</span></div>
+        <br><br>
+        <!-- former employer2 -->
+
+        <div id="employment2"><br>
+          <label for="employer" id="employer">
+
+          </label>
+          <label for="length-of-employment" class="text">Previous Employer</label>
+          <input type="length" class="box" placeolder="length of employment" placeholder="name of employer"><br>
+
+          <!-- employer2 address #address2 -->
+          <label for="address" class="text">Street Address</label>
+          <input type="address" class="box" placeholder="address"><br>
+
+          <!-- city2 #city-label2-->
+
+          <label for="city" class="text">City</label>
+          <input for="city" class="box" placeholder="city"><br>
+
+          <!--state2 #state-label2-->
+
+          <label for="state" class="text">State</label>
+          <input for="state" class="box" placeholder="state"><br>
+
+          <!-- zipcode2 #zip-code2-->
+
+          <label for="zip-code" class="text">Zip Code</label>
+          <input for="zip-code" class="box" placeholder="zip-code"><br>
+
+          <!-- contact employer2 #contact -->
+        </div>
+        <label for="contact" id="contact">
+          <h2 class="headtext">May We Contact?</u></h2>
+        </label>
+        <div class="flexy">
+          <input type="radio" name="grant" class="checks" value="one"><span id="radiobut">Yes</span>
+          <input type="radio" name="grant" class="checks" value="two"><span id="radiobut">No</span></div>
+
+      </fieldset>
+
+
+
+      <!-- essay  #essay-->
+
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Why Should We Choose You?</h3>
+        </legend>
+
+        <h2 class="headtext">Let us know why you would like to take part in our program,
+          or how our program will impact your life.</h2><br>
+        <textarea type="textarea" id="textarea" class="box" cols="50" rows="10" wrap="soft"
+          id="essaytext"></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          <h3 class="title-blue app-title">Upload Your Resume</h3>
+        </legend>
+        <form action="" method="post">
+          <input type="file" name="resume"><br>
+          <input type="submit" value="Upload" id="uploadres"><br>
+      </fieldset>
+
+    </div>
+      <!-- upload resume -->
+    </form>
+
+      <!-- submit button #submit-application-->
+      <center>
+        <button type="Submit" id="submit-application" class="btn">Submit Application</button></center><br>
+
+
+
+    <!-- END APPLICATION -->
+
+    <br><br><br><br><br><br><br><br><br>
+    <a href="#tiptop" class="backtotop" id="hidethis"><img src="../cclogoleaflil.png" width="20px" id="iconlogo"> back
+      to top</a>
+    <br><br><br>
+
+
+
+
+
+
+    <!-- EXTENDED FOOTER. DO NOT CHANGE -->
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div id="triangle9" class="triangle-left">
+    </div>
+
+    <div id="fadepic"><img src="../people.jpg" id="fadedpic"></div>
+    <div id="app-blurb">
+      <p class="txt-primary-app">"ClimateCorps alumni go on to serve some of the largest <br>and most sustainable
+        organizations in the world." <br><img src="../CEOlady.jpg" id="ceopic"><br>Amanda Martin<br>Executive Director,
+        ClimateCorps
+
+
+
+      </p>
+    </div>
+    <!-- SECTION FIVE -->
+
+    <br><br><br>
+  </section>
+
+
+  <!-- open section -->
+
+  <div id="opensection">
+
+    <div id="triangle4-app" class="triangle-right">
+    </div>
+
+  </div>
+
+
+
+
+  <div id="joinsection2">
+
+    <!-- join section  -->
+
+    <div id="testy">
+      <div id="testquote"><em>
+          <p class="txt-primary-white">"ClimateCorps changed everything. I went from being a single parent working a
+            dead-end job to having a fulfilling, meaningful career that makes the world a better place, makes me a
+            better person, and - most importantly - makes me the type of role model my daughter can be proud of."</p>
+        </em></div>
+      <div id="testname">
+        <p class="txt-primary-blue">Stephanie A. Halverson, San Jose, CA</p>
+      </div>
+      <img src="../momreading.jpg" id="testpic2">
+
+    </div>
+
+
+  </div>
+
+  <div id="triangle5" class="triangle-left">
+  </div>
+
+
+
+  <section id="sectionfive3">
+
+
+    <div id="donatetxt"><br><br><br><br><br>
+      <p class="title-blue">DONATE.</p>
+      <p class="txt-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don't wait for the world to change. Be a part of the
+        ClimateCorps revolution today!</p>
+      <br>
+
+      <div id="mybuttons">
+        <button id="myDonateBtn" class="btn">Donate Now</button>
+        <br><br><br><br>
+        <a href="#tiptop" class="backtotop"><img src="../cclogoleaflil.png" width="20px" id="iconlogo"> back to
+          top</a><br><br>
+      </div>
+  </section>
+
+
+
+  <div id="triangle7" class="triangle-left">
+  </div>
+
+  <br><br>
+
+
+
+  <!-- FOOTER. DO NOT CHANGE -->
+  <footer>
+    <center>
+      &copy; 2021 ClimateCorps. All rights reserved.<br>
+      <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a></center>
+  </footer>
+
+  <!-- end here  -->
+
+
+
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="../js/jquery.js"></script>
+
+  <!-- import D3.js -->
+  <script type="text/javascript" src="./js/d3.js"></script>
+  <script type="text/javascript" src="../script.js"></script>
+
+</body>
+
+</html>
